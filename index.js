@@ -30,11 +30,11 @@ function callApi(url, options) {
 class PixivApi {
   constructor() {
     this.headers = {
-      'App-OS': 'ios',
-      'Accept-Language': 'en-us',
-      'App-OS-Version': '14.0',
-      'App-Version': '7.9.4',
-      'User-Agent': 'PixivIOSApp/7.9.4 (iOS 14.0; iPhone8,2)',
+      // 'App-OS': 'ios',
+      // 'Accept-Language': 'en-us',
+      // 'App-OS-Version': '14.0',
+      // 'App-Version': '7.9.4',
+      'User-Agent': `PixivAndroidApp/5.0.212 (Android 6.0; PixivBot)`,
     };
   }
 
